@@ -43,6 +43,8 @@
   height: 50%;
   width: 500px;
   padding-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .info {
@@ -68,6 +70,10 @@ a {
   display: flex;
   flex-direction: column;
 }
+.columns {
+    display: flex;
+    flex-direction: row;
+}
 
 .recipe h2 {
   margin-top: 20px;
@@ -78,11 +84,8 @@ a {
   padding-bottom: 50px;
 }
 
-.recipe h3 h4 {
-  padding-bottom: 20px;
-}
-
-.recipe ul {
+.columns ul,ol {
+  margin-top: 20px;
   padding-bottom: 50px;
 }
 
@@ -92,5 +95,5 @@ a {
 }
 
 li {
-  padding: 10px;
+  padding: 5px;
 }
