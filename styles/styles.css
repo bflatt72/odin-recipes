@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  background-color: blanchedalmond;
+  color: rgb(62, 66, 66);
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.home {
+  padding-top: 20px;
+}
+
+.heading {
+  padding-top: 12px;
+}
+
+.heading1 {
+  margin-left: 250px;
+  padding-top: 10px;
+}
+
+.dinner {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 530px;
+}
+
+.divan {
+  height: 50%;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: blanchedalmond;
+  height: 30px;
+}
+
+a {
+  color: rgb(62, 66, 66);
+  font-weight: bold;
+}
+
+.page {
+  display: flex;
+  margin-top: 5px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe p {
+  padding-bottom: 50px;
+}
+
+.recipe h3 h4 {
+  padding-bottom: 20px;
+}
+
+.recipe ul {
+  padding-bottom: 50px;
+}
+
+.description {
+  margin-left: 275px;
+  padding-bottom: 20px;
+}
+
+li {
+  padding: 10px;
+}
