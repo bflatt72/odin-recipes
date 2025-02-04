@@ -169,9 +169,6 @@ ol {
 
 
 @media (max-width: 1190px) {
- body {
-    height: 100vh;
- }
 
   .page {
     display: flex;
