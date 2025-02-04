@@ -220,5 +220,7 @@ ol {
   .divan, .roast, .spaghetti {
     height: 200px;
     width: auto;
+    margin: 0 auto;
+    
   }
 }
