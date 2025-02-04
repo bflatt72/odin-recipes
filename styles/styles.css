@@ -13,13 +13,13 @@ body {
   height: 100vh;
   font-size: 24px;
   color: rgb(15, 15, 15);
-  background: linear-gradient(to right, gray, rgb(143, 136, 136));
+  background: linear-gradient(to right, rgb(128, 128, 128), rgb(143, 136, 136));
 
 }
 
 .title {
 
-  color: rgb(62, 66, 66);
+  color: rgb(113, 119, 119);
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -99,7 +99,7 @@ li {
 
 .info,
 .title {
-  background-color: rgb(107, 107, 102);
+  background-color: rgb(116, 109, 109);
   color: black;
 }
 
@@ -215,5 +215,10 @@ ol {
 
   .title {
     width: 95vw;
+  }
+
+  .divan, .roast, .spaghetti {
+    height: 200px;
+    width: auto;
   }
 }
