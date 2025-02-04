@@ -224,9 +224,10 @@ ol {
   .roast,
   .spaghetti {
     height: auto;
-    width: 80vw;
+    width:50%;
     margin: 0 auto;
-    margin-right: 75px;
+    
+ 
     
 
   }
