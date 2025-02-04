@@ -176,6 +176,7 @@ ol {
     flex-direction: column;
     margin-left: 50px;
     width: 100vw;
+    height: 100vh;
 
   }
 
@@ -225,7 +226,6 @@ ol {
   .spaghetti {
     height: auto;
     width: 80vw;
-    
     margin: 0 auto;
     margin-right: 75px;
     
