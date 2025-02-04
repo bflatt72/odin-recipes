@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +16,7 @@ body {
   font-size: 24px;
   color: rgb(15, 15, 15);
   background: linear-gradient(to right, rgb(128, 128, 128), rgb(209, 165, 165));
-  font-family: Arsenal SC;
+  font-family: Arsenal SC, sans-serif;
 
 }
 
@@ -174,7 +176,7 @@ ol {
     flex-direction: column;
     margin-left: 50px;
     width: 100vw;
-   
+
   }
 
   .columns {
@@ -218,10 +220,13 @@ ol {
     width: 95vw;
   }
 
-  .divan, .roast, .spaghetti {
+  .divan,
+  .roast,
+  .spaghetti {
     height: auto;
-    width: 50vw;;
+    width: 50vw;
+    ;
     margin: 0 auto;
-    
+
   }
 }
