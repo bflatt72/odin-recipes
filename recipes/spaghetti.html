@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <a href="../index.html">Home</a>
-    <h1>Spaghetti</h1>
-    <img src="../images/spaghetti.jpg" height = 300px width = 350 px alt="Spaghetti and meat sauce">
-    
-    <h2>Description</h2>
-    <p>Simple 20 minute Spaghetti with meat sauce</p>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
 
-    <h3>Ingredients</h3>
-    <ul>
-        <li>1 lb of hamburger meat</li>
-        <li>Ragu spaghetti sauce of choice</li>
-        <li>Spaghetti noodles</li>
-        <li>Parmesan cheese</li>
-    </ul>
+  <body>
+    <div class="title">
+      <div class="nav">
+        <a class="home" href="../index.html">Home</a>
+        <h1 class="heading1">Spaghetti</h1>
+      </div>
+    </div>
 
-    <h4>Steps</h4>
-    <ol>
-        <li>Cook hamburger meat in skillet until brown</li>
-        <li>Add in Ragu sauce and cook to simmer</li>
-        <li>While meat sauce simmering, boil spaghetti noodles until tender</li>
-        <li>Serve meat sauce over noodles</li>
-        <li>Add parmesan cheese to taste</li>
-    </ol>
-</body>
+    <div class="page">
+      <img
+        class="spaghetti"
+        src="../images/spaghetti.jpg"
+        alt="Spaghetti and meat sauce"
+      />
+
+      <div class="recipe">
+        <h2>Description</h2>
+        <p>Simple 20 minute Spaghetti with meat sauce</p>
+
+        <div class="columns">
+          <div class="items">
+            <h3>Ingredients</h3>
+            <ul>
+              <li>1 lb of hamburger meat</li>
+              <li>Ragu spaghetti sauce of choice</li>
+              <li>Spaghetti noodles</li>
+              <li>Parmesan cheese</li>
+            </ul>
+          </div>
+
+          <div class="items">
+            <h3>Steps</h3>
+            <ol>
+              <li>Cook hamburger meat in skillet until brown</li>
+              <li>Add in Ragu sauce and cook to simmer</li>
+              <li>
+                While meat sauce simmering, boil spaghetti noodles until tender
+              </li>
+              <li>Serve meat sauce over noodles</li>
+              <li>Add parmesan cheese to taste</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
