@@ -169,14 +169,16 @@ ol {
 
 
 @media (max-width: 1190px) {
-
+ body {
+    height: 100vh;
+ }
 
   .page {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
     width: 100vw;
-    height: 100vh;
+  
 
   }
 
