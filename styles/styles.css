@@ -7,22 +7,50 @@
 
 }
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: auto;
   font-size: 24px;
   color: rgb(15, 15, 15);
-  background: linear-gradient(to right, rgb(128, 128, 128), rgb(209, 165, 165));
   font-family: Arsenal SC, sans-serif;
+  background-color: rgb(194, 184, 191);
+}
 
+.card, .card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, rgb(128, 128, 128), rgb(209, 165, 165));
+  max-width: 70%;
+  height: auto;
+  border: 2px solid none;
+  border-radius: 20px;
+  margin: 100px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.card1 {
+  
+  max-width: 30%;
+  
 }
 
 .title {
 
-  color: rgb(113, 119, 119);
+  /* color: rgb(113, 119, 119); */
   width: 100%;
   text-align: center;
   font-size: 24px;
@@ -42,16 +70,18 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  height: 100px;
-  margin-left: 150px;
+
+  /* height: 100px; */
+  margin-left: 55px;
   margin-right: 50px;
+
 }
 
 .dinner {
   height: 300px;
-  width: auto;
+  width: 50%;
   display: block;
+  margin: 0 auto;
 }
 
 .divan {
@@ -102,7 +132,7 @@ li {
 
 .info,
 .title {
-  background-color: rgb(116, 109, 109);
+  /* background-color: rgb(116, 109, 109); */
   color: black;
 }
 
@@ -115,12 +145,15 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 200px;
+
+
+
 }
 
 .recipe {
   display: flex;
   flex-direction: column;
+
 }
 
 .columns {
@@ -136,12 +169,19 @@ li {
 
 }
 
-.items li {
-  list-style-type: decimal;
+.items2 {
+  margin-top: 35px;
+}
+
+.items li,
+.items2 li {
+  list-style-type: disc;
   padding-left: 5px;
   margin-left: 20px;
 
 }
+
+
 
 
 
@@ -160,6 +200,7 @@ li {
 ol {
   margin-top: 25px;
   padding: 0;
+  padding-right: 10px;
 }
 
 .list-item a:hover {
@@ -168,15 +209,39 @@ ol {
 
 
 
-@media (max-width: 1190px) {
+@media (max-width: 1000px) {
+
+
+
+
+  .card,
+  .card1 {
+    max-width: 90%;
+    margin: 50px auto;
+    height: 100%;
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+
+
 
   .page {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    width: 100vw;
-  
+    margin: 0 auto;
+    max-width: 100%;
 
+
+
+  }
+
+  .title {
+    width: 100vw;
+  }
+
+  .recipe {
+    max-width: 100%;
+    margin-left: 20px;
   }
 
   .columns {
@@ -188,24 +253,25 @@ ol {
   ol {
     margin-top: 0;
     padding: 0;
+    width: 100%;
+
+
   }
 
   li {
-    width: 90vw;
+
     margin-left: 0;
     padding-top: 0;
   }
 
   .nav {
     font-size: 1rem;
+    display: flex;
     justify-content: space-between;
-    margin-right: 10px;
-    margin-left: 10px;
+    align-items: center;
+    margin-right: 50px;
   }
 
-  .description {
-    margin-left: 10px;
-  }
 
   .info {
     padding-left: 20px;
@@ -214,21 +280,19 @@ ol {
 
   .info li {
     font-size: 1rem;
+    padding-right: 60px;
+    padding-left: 0;
   }
 
-  .title {
-    width: 95vw;
-  }
+
 
   .divan,
   .roast,
   .spaghetti {
     height: auto;
-    width:50%;
+    width: 50vw;
     margin: 0 auto;
-    
- 
-    
+
 
   }
 }
